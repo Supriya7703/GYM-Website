@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Freaks</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<style>
+    body{
+        font-family: 'Allerta+Stencil';
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .left{
+        display: inline-block;
+       
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+    .left img{
+        display: block;
+        width: 80px;
+        
+    }
+
+    .left div{
+            text-align: center;
+            font-weight: bold;
+            line-height: 19px;
+            font-size: 26px;
+    }
+    
+    .mid{
+        display:block;
+        width: 46%;
+        margin: 40px auto;
+        
+        text-align: center;
+    }
+    .right{
+        position:absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+     
+    }
+    .navbar{
+        display: inline-block;
+        margin: 0; /* Remove default margin to avoid extra space */
+        padding: 0;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+        white-space: nowrap; /* Prevent line breaks */
+        margin: 0 10px; /* Adjust the spacing between links */
+    }
+    .navbar li a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        margin:opx 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Allerta+Stencil';
+
+    }
+    .btn:hover{
+        background-color: rgb(54, 51, 51);
+    }
+    .container{
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px; 
+        font-family: 'Allerta+Stencil';
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+</style>    
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo2.jpg" alt="">
+        <div>Fitness Freaks</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+       <h1>Join the best Gym of Jaipur Now!</h1>
+       <form action=""noaction.php>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name"
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age"
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender"
+            </div>
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter your locality"
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone number"
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your email"
+            </div>
+            <button class="btn">Submit</button>
+
+    </div>
+</body>
+</html>
